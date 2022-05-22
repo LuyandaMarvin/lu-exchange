@@ -4,7 +4,7 @@ import { GunContext } from '../context/gunContext'
 import { faker } from '@faker-js/faker'
 import ChevronUp from '../assets/svg/chevronUp'
 import ChatCard from './ChatCard'
-import Button from './button'
+import Button from './Button'
 import shiba from '../assets/shiba.png'
 import Image from 'next/image'
 
