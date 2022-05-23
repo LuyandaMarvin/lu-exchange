@@ -9,7 +9,6 @@ function MyApp({ Component, pageProps }: AppProps) {
     <MoralisProvider
     serverUrl={process.env.NEXT_PUBLIC_SERVER}
     appId={process.env.NEXT_PUBLIC_APP_ID}
-    initializeOnMount={false}
     >
       <GunProvider>
         <CoinMarketProvider>
